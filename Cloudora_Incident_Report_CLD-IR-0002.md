@@ -16,7 +16,6 @@
 | Status | Contained. Eradication verified, monitoring continues |
 | Classification | CONFIDENTIAL: Internal and client distribution only |
 
-Full step-by-step investigation: [Cloudora Phishing Campaign Investigation (CLD-0002)](Cloudora_Phishing_Investigation_CLD-0002.md)
 
 ## Contents
 
