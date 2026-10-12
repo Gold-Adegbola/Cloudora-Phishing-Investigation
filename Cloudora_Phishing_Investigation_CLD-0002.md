@@ -94,7 +94,7 @@ The investigation aimed to:
 | KQL queries | Search and correlate investigation data |
 | VirusTotal | Enrich domain and infrastructure information |
 | AbuseIPDB | Enrich IP reputation information |
-| Incident report template | Record investigation findings and response actions |
+
 
 The evidence sources were used together rather than independently. The email files established what was sent. Message trace data established who received and interacted with the messages. Entra ID sign-in logs were then used to determine whether exposed credentials were subsequently used.
 
@@ -219,7 +219,7 @@ The infrastructure identified during email analysis was later used for threat in
 
 Threat intelligence was used after the initial evidence had been established. This followed an evidence-first, enrichment-second approach.
 
-> **Note:** The VirusTotal and AbuseIPDB screenshots are illustrative mock-ups supplied with the training scenario.
+> **Note:** The domain and IPs in this scenario are synthetic, so the VirusTotal and AbuseIPDB pages shown here are simulated.
 
 ### 7.1 VirusTotal
 
