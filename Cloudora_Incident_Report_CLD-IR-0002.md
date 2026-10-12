@@ -171,7 +171,8 @@ Pivoting on the attacker sign-in IP is what confirmed the second victim and boun
 
 This report covers delivery, user interaction, credential exposure and sign-in activity. What the attacker did inside the two mailboxes and SharePoint Online after signing in (for example mail read or forwarded, files accessed) was not assessed and should be reviewed as a follow-up.
 
-The VirusTotal and AbuseIPDB screenshots used in the investigation are illustrative mock-ups supplied with the training scenario, so their figures are supporting context only.
+The domain and IPs in this scenario are synthetic, so the VirusTotal and AbuseIPDB screenshots used in the
+investigation are simulated, so their figures are supporting context only.
 
 The full step-by-step investigation, queries and evidence screenshots are in the accompanying investigation documentation ([CLD-0002](Cloudora_Phishing_Investigation_CLD-0002.md)).
 
