@@ -1,0 +1,7 @@
+// CLD-0002 | Step 3: Who clicked the phishing link?
+// Returns 6 records: 4 clicked only, 2 also submitted credentials (Freya and Ryan).
+CloudoraMsgTrace_CL
+| where EventType == "Click"
+| project TimeGenerated, RecipientAddress, Campaign, Url, ClickIP,
+          CredentialsSubmitted
+| order by TimeGenerated asc

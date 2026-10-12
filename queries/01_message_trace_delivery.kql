@@ -1,0 +1,7 @@
+// CLD-0002 | Step 3: Who received the phishing emails?
+// Keeps the most recent message per recipient, so the row count equals
+// the number of employees targeted (40 records).
+CloudoraMsgTrace_CL
+| summarize arg_max(TimeGenerated, *) by RecipientAddress
+| project TimeGenerated, RecipientAddress, Campaign, SenderIP,
+          SPFResult, DKIMResult, DMARCResult

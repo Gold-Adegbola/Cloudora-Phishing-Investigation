@@ -1,0 +1,10 @@
+// CLD-0002 | Step 5: Was anyone else affected?
+// Searches the whole 198.18.7.x range, not just 198.18.7.200, so neighbouring
+// addresses are not missed. Returns 2 records: freya.lynn and ryan.boyd.
+// Re-run after containment to confirm no further activity from this range.
+CloudoraSignin_CL
+| where IPAddress startswith "198.18.7." and ResultType == "0"
+| summarize FirstSeen = min(TimeGenerated), LastSeen = max(TimeGenerated),
+            Apps = make_set(AppDisplayName)
+            by UserPrincipalName, IPAddress, Country
+| order by FirstSeen asc
