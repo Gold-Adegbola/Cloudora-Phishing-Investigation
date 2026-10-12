@@ -19,10 +19,9 @@ A payroll-themed phishing campaign hit a fictional London HR and payroll softwar
 
 ## What is in this repo
 
-- [`docs/Cloudora_Phishing_Investigation_CLD-0002.pdf`](docs/Cloudora_Phishing_Investigation_CLD-0002.pdf): the full step-by-step investigation, with queries and evidence ([Markdown version](docs/Cloudora_Phishing_Investigation_CLD-0002.md))
-- [`docs/Cloudora_Incident_Report_CLD-IR-0002.pdf`](docs/Cloudora_Incident_Report_CLD-IR-0002.pdf): the shorter incident report with timeline, IOCs, MITRE ATT&CK mapping, actions taken and recommendations ([Markdown version](docs/Cloudora_Incident_Report_CLD-IR-0002.md))
+- [`Cloudora_Phishing_Investigation_CLD-0002.pdf`](Cloudora_Phishing_Investigation_CLD-0002.pdf): the full step-by-step investigation, with queries and evidence ([Markdown version](Cloudora_Phishing_Investigation_CLD-0002.md))
+- [`Cloudora_Incident_Report_CLD-IR-0002.pdf`](Cloudora_Incident_Report_CLD-IR-0002.pdf): the shorter incident report with timeline, IOCs, MITRE ATT&CK mapping, actions taken and recommendations ([Markdown version](Cloudora_Incident_Report_CLD-IR-0002.md))
 - [`images/`](images): the screenshots used below
-- [`queries/`](queries): the KQL queries I wrote, one file per investigation step (see [queries/README.md](queries/README.md))
 
 ## How I approached it
 
