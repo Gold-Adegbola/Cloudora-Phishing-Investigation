@@ -11,6 +11,4 @@ The queries I wrote for the Cloudora phishing investigation (CLD-0002), run in A
 
 Tables used: `CloudoraMsgTrace_CL` (message trace) and `CloudoraSignin_CL` (Entra ID sign-in logs). Both are synthetic data from the training scenario.
 
-Queries 03 and 04 were re-run after containment to verify there was no further activity from `198.18.7.200`.
-
 See the [full investigation](../docs/Cloudora_Phishing_Investigation_CLD-0002.pdf) for the screenshots and reasoning behind each query.
